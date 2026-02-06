@@ -1,0 +1,110 @@
+header {
+  background: linear-gradient(90deg, #007bff, #6610f2);
+}
+header h1 {
+  font-size: 3rem;
+}
+/* Botón rosado pastel */
+.btn-reserva {
+  background-color: #f8c8dc; /* rosado pastel */
+  color: #000;
+  border: none;
+  padding: 12px 30px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+
+a.btn.btn-reserva:hover {
+  background-color: #f4a6c1 !important;
+  color: #fff !important;
+}
+
+
+.btn-servicios {
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #ccc;
+  padding: 12px 30px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.btn-servicios:hover {
+  background-color: #f8f9fa;
+  border-color: #999;
+  color: #000;
+}
+/* Botón Instagram */
+.btn-instagram {
+  background-color: #ffffff; /* amarillo vibrante */
+  color: #000;
+  border: none;
+  padding: 12px 30px; /* más pequeño que el inicio */
+  font-weight: bold;
+  transition: all 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px; /* espacio entre ícono y texto */
+}
+.btn-instagram:hover {
+  background-color: #dd755e; /* terracota */
+  color: #fff;
+}
+
+/* Tarjetas de servicios */
+.card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+/* Títulos sobrios */
+.card-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #333;
+}
+
+/* Texto */
+.card-body p, .card-body li {
+  color: #555;
+  font-size: 0.95rem;
+}
+
+/* Botón WhatsApp */
+.btn-reserva {
+  background-color: #dd755e; /* verde WhatsApp */
+  color: #fff;
+  border: none;
+  padding: 8px 20px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+.btn-reserva:hover {
+  background-color: #dd755e;
+}
+
+/* Botón Instagram */
+.btn-instagram {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  padding: 8px 20px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+.btn-instagram:hover {
+  background-color: #555;
+  color: #fff;
+}
